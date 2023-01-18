@@ -69,8 +69,7 @@ def main():
 
     # time.sleep(2)  # Let the user actually see something!
 
-    # driver.find_element_by_id("ctl00_MainContent_InputLogin").send_keys("119424")
-    # driver.find_element_by_id("ctl00_MainContent_InputPassword").send_keys("9416")
+
     # driver.find_element_by_id("ctl00_MainContent_btnLogin").click()
 
     driver.find_element(By.ID, "ctl00_MainContent_InputLogin").send_keys("<Here goes your Login>")
