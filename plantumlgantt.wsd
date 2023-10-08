@@ -1,0 +1,29 @@
+@startgantt
+<style>
+ganttDiagram {
+task {
+BackGroundColor GreenYellow
+LineColor Green 
+unstarted {
+BackGroundColor Fuchsia 
+LineColor FireBrick
+}
+}
+}
+</style>
+title Today is %date("YYYY-MM-dd")
+printscale monthly zoom 1
+' printscale weekly
+today is colored in pink
+saturday are closed
+sunday are closed
+
+!$now =%now()
+!$past = %date("YYYY-MM-dd", $now - 14*24*3600)
+project starts $past
+
+[Detailed Course material] starts $past and  lasts 10 days
+[courseAgreed] happens at [Detailed Course material]'s end
+[courseLaunch] happens on 2024-09-03
+
+@endgantt

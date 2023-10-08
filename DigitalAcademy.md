@@ -1,5 +1,5 @@
 - [Context](#context)
-- [Courses](#courses)
+- [Courses To ~~Consult~~](#courses-to-consult)
 - [Topics](#topics)
 - [Team](#team)
 - [Vision](#vision)
@@ -15,7 +15,7 @@ Develop an ‘A-Level Plus’ course to be offered to Alleyn’s Sixthformers, a
 Continue to build the after-school Digital Academy, increasing expertise and engagement
 
 
-# Courses
+# Courses To ~~Consult~~
 1. MIT
 2. CMU
 3. Harvard
