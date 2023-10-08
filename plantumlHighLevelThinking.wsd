@@ -1,0 +1,48 @@
+@startuml
+skinparam RoundCorner 15
+skinparam BackgroundColor lightGray
+skinparam AgentBorderColor Yellow
+skinparam DefaultFontColor black
+skinparam DefaultFontSize 25
+
+' skinparam 
+component embedded
+artifact ratio
+cloud advancedtech
+folder feedbackloops{
+    interface parent2School
+    interface school2dfe
+    interface multidiciplinery
+}
+
+node school{
+    portin connect
+    portout ToParents
+    
+    database skil[
+    dataAnalytics
+    ====
+    ArtificialIntelligence
+    ----
+    blockchain
+    ===
+    algorithms
+    ===
+    horizon TECHNOLOGY
+    ===
+    public cloud & tools
+
+
+]
+feedbackloops ---> connect
+
+}
+
+artifact epq{
+    folder compSvc
+    folder projectBased
+}
+
+
+
+@enduml
