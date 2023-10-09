@@ -1,48 +1,68 @@
 @startuml
+allow_mixing
 skinparam RoundCorner 15
 skinparam BackgroundColor lightGray
 skinparam AgentBorderColor Yellow
 skinparam DefaultFontColor black
 skinparam DefaultFontSize 25
+left to right direction
 
 ' skinparam 
-component embedded
-artifact ratio
-cloud advancedtech
-folder feedbackloops{
-    interface parent2School
-    interface school2dfe
-    interface multidiciplinery
+
+folder feedbackloops #LightGoldenRodYellow {
+    control parents2Academy #aliceblue
+    control Academy2DFE #red
+    control AcademyOtherStakeholders #Fuchsia
 }
 
-node school{
+node DigitalAcademy #9999ff{
     portin connect
-    portout ToParents
+    portout tomarket
+    portout tosubscribers
     
-    database skil[
-    dataAnalytics
+    database SkillsOnBelt[
+    DataAnalytics like BI,looker,execl++,powerbi,tableau
     ====
-    ArtificialIntelligence
+    ArtificialIntelligence 
     ----
-    blockchain
+    DeepLearning-rnn,generative AI
+    ====
+    blockchain-DLT
     ===
-    algorithms
+    Algorithms & models
     ===
-    horizon TECHNOLOGY
+    horizon TECHNOLOGY like quantum,optimizers,stable diffusion
     ===
-    public cloud & tools
-
-
+    Public cloud & tools gcp,azure,aws
+    ---
+    low code platforms
+    ===
+    Robotics
+    ===
+    cybersecurity,networking & OWSAP
+    ===
+    ...other skills
+    ===
 ]
-feedbackloops ---> connect
+
+}
+feedbackloops ---> connect: <:tent:>
+
+
+artifact deliverable #green;line:blue{
+    class certification {
+        name
+        date
+    }
+    Json projectBased #lightblue{
+        "name":"student",
+        "Title":"project outcome",
+        "teams":["Team1","Team2"]
+    } 
 
 }
 
-artifact epq{
-    folder compSvc
-    folder projectBased
-}
-
+tosubscribers <-(0)->deliverable : outcome <:fire:>
 
 
 @enduml

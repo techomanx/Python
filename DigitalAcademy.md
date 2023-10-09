@@ -1,8 +1,9 @@
 - [Context](#context)
-- [Courses To ~~Consult~~](#courses-to-consult)
+- [Courses To Consult](#courses-to-consult)
 - [Topics](#topics)
-- [Team](#team)
-- [Vision](#vision)
+- [Steer co Team](#steer-co-team)
+- [Jane's Vision](#janes-vision)
+- [contributor's views](#contributors-views)
 - [Ideas and suggestions for sixth form computer science curriculum:](#ideas-and-suggestions-for-sixth-form-computer-science-curriculum)
     - [Ada College](#ada-college)
   - [Ada College is the UK’s first college for Digital Skills. This is a link to their computer science curriculum:https://www.ada.ac.uk/sixthform/curriculum/computer-science.](#ada-college-is-the-uks-first-college-for-digital-skills-this-is-a-link-to-their-computer-science-curriculumhttpswwwadaacuksixthformcurriculumcomputer-science)
@@ -15,7 +16,7 @@ Develop an ‘A-Level Plus’ course to be offered to Alleyn’s Sixthformers, a
 Continue to build the after-school Digital Academy, increasing expertise and engagement
 
 
-# Courses To ~~Consult~~
+# Courses To Consult
 1. MIT
 2. CMU
 3. Harvard
@@ -27,7 +28,7 @@ Continue to build the after-school Digital Academy, increasing expertise and eng
 
 # Topics
 
-# Team
+# Steer co Team
  - markets
    - goldman, natwest, boa, experian
  - entrepreneur
@@ -43,7 +44,7 @@ Continue to build the after-school Digital Academy, increasing expertise and eng
  - risk assessment
  -  feedback, research, recommendation
   
-# Vision
+# Jane's Vision
 - outstanding education
 - digital sponsorship
 - tech education leader
@@ -66,6 +67,7 @@ Continue to build the after-school Digital Academy, increasing expertise and eng
 - research
 - curriculum modification
 
+# contributor's views
 - focus on values
 - personalization of students
 - how curriculum adapts to advancements
@@ -105,3 +107,6 @@ Continue to build the after-school Digital Academy, increasing expertise and eng
 - Tying all learning back to real life applications is very beneficial for students as some computing concepts are very abstract and often difficult to see the benefit of
 - One suggestion could be to have a chapter in every module focusing on real life applications of what students learned.
 - Invite guest lecturer/industry expert every week to talk about an application of an engineering principle we learned about on the course 
+
+
+[def]: #real-life-applications
