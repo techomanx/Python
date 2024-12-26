@@ -1,0 +1,67 @@
+@startgantt
+<style>
+ganttDiagram {
+task {
+    BackGroundColor GreenYellow
+    LineColor Green 
+    unstarted {
+        BackGroundColor Fuchsia 
+        LineColor FireBrick
+            }
+    }
+separator {
+    LineColor red
+    BackGroundColor LightCyan
+    Fontsize 12
+    FontStyle bold
+    FontColor purple
+}
+milestone {
+		FontColor blue
+		FontSize 14
+		FontStyle italic
+		BackGroundColor yellow
+		LineColor red
+	}
+    note {
+		FontColor DarkGreen
+		FontSize 10
+		LineColor OrangeRed
+	}
+    arrow {
+		FontName Helvetica
+		FontColor red
+		FontSize 18
+		FontStyle bold
+		BackGroundColor GreenYellow
+		LineColor blue
+	}
+}
+</style>
+title Today is %date("YYYY-MM-dd")
+printscale monthly zoom 4
+' printscale weekly
+today is colored in pink
+saturday are closed
+sunday are closed
+hide resources footbox
+
+!$now =%now()
+!$past = %date("YYYY-MM-dd", $now - 10*24*3600)
+project starts $past
+
+-- Academy Technical ---
+[DetailedCourseMaterial] on {OZ:50%} starts $past and  lasts 20 days and is 20% completed
+[courseAgreed] happens 1 day after [DetailedCourseMaterial]'s end
+-- Academy Operational ---
+[focusGroup2ndmeeting] happens on 2023-10-08
+[InnovationHubSetup] starts 5 days before [DetailedCourseMaterial]'s end and lasts 50 days and is 20% completed
+[courseLaunch] happens on 2024-09-03
+-- Academy Funding ---
+[Tranche1FundingSecured] happens on 2024-01-30
+---Academy Training --
+--Academy Business --- 
+[markettingConnect] starts 100 days before [courseLaunch]'s start and lasts 20 days 
+
+
+@endgantt
